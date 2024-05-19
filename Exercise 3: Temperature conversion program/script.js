@@ -13,13 +13,13 @@ btn.onclick = function () {
     let fahrenheitValue = value * 1.8 + 32;
     output.textContent = fahrenheitValue;
     // setTimeout(() => {
-    //   output.textContent = "Hello World!";
+    // output.textContent = "Hello World!";
     // }, 500);
   } else if (Fahrenheit.checked) {
     let celsiusValue = ((value - 32) * 5) / 9;
     output.textContent = celsiusValue;
     // setTimeout(() => {
-    //   output.textContent = "Hello World!";
+    // output.textContent = "Hello World!";
     // }, 500);
   } else {
     //Throw an error
