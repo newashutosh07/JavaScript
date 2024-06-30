@@ -22,17 +22,16 @@
 //   console.log("Leave!");
 // }
 
-// function goodbye() {
+// function goodBye() {
 //   console.log("Goodbye!");
 // }
 
-sum(displayPage, 1, 2);
+sum(displayPage, 5, 6);
 
 function sum(callback, x, y) {
   let result = x + y;
   callback(result);
 }
-
 function displayConsole(result) {
   console.log(result);
 }
